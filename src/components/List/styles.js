@@ -5,6 +5,7 @@ const Container = styled.div `
     height: 100%;
     flex: 0 0 320px;
     opacity: ${props => props.done ? 0.6 : 1};
+    overflow-y: auto;
 
     & + div {
         border-left: 1px solid rgba(0, 0, 0, 0.05);
